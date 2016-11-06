@@ -2,6 +2,10 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
+from keras.models import Sequential
+from keras.layers import Dense, Activation, Dropout, Flatten
+from keras.layers import Convolution2D, MaxPooling2D
+from keras.optimizers import SGD
 
 def one_hot(labels):
 	rows = labels.shape[0]
@@ -29,11 +33,6 @@ def display(img):
 	plt.figure()
 	plt.imshow(np.transpose(img,(1,2,0)))
 	plt.show()
-
-from keras.models import Sequential
-from keras.layers import Dense, Activation, Dropout, Flatten
-from keras.layers import Convolution2D, MaxPooling2D
-from keras.optimizers import SGD
 
 def make_network():
 	model = Sequential()

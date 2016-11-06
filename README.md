@@ -8,6 +8,14 @@ You can download the 3 csv files from this [google drive link](https://drive.goo
 
 Alternately, you can download the training data from [Kaggle](https://www.kaggle.com/c/cifar-10) and place the expanded folder inside the `train-data` folder. Then, use the `make_csv.py` script to generate the csv files corresponding to each channel. To use `make_csv.py`, run `python make_csv.py --channel color` where color can be specified as red, green and blue. Once, the three csv files are generated you can proceed to training or testing the model. 
 
-## Recognizing images of any shape (OpenCV required)
+## Recognizing own images (OpenCV required)
 
-The script `recognize.py` can be used to recognize images of any shape using the weights learned from training the model. The usage is as follows: `python recognize.py --image address-of-image`. 
+The script `recognize.py` can be used to recognize images of any shape using the weights learned from training the model. The usage is as follows: `python recognize.py -image address-of-image`. Here are some examples:
+
+| Image                                                        | Probabilities                                          | Top results                |
+|--------------------------------------------------------------|--------------------------------------------------------|----------------------------|
+|<img src="examples/blue-winged-warbler.jpg">                  |<img src="examples/plot1.png" width="50%" height="50%"> | bird, deer, frog           |
+|<img src="examples/boy-and-dog.jpg" width="50%" height="50%"> |<img src="examples/plot2.png" width="50%" height="50%"> | dog, horse, cat            |
+|<img src="examples/rolls-royce.jpg" width="50%" height="50%"> |<img src="examples/plot3.png" width="50%" height="50%"> | automobile, truck, airplane|
+|<img src="examples/ship.jpg" width="50%" height="50%">        |<img src="examples/plot4.png" width="50%" height="50%"> | ship, airplane, truck      |
+
