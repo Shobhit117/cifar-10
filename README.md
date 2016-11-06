@@ -12,10 +12,10 @@ Alternately, you can download the training data from [Kaggle](https://www.kaggle
 
 The script `recognize.py` can be used to recognize images of any shape using the weights learned from training the model. The usage is as follows: `python recognize.py -image address-of-image`. Here are some examples:
 
-| Image                                                        | Probabilities                 | Top results                |
-|--------------------------------------------------------------|-------------------------------|----------------------------|
-|<img src="examples/blue-winged-warbler.jpg">                  |<img src="examples/plot1.png"> | bird, deer, frog           |
-|<img src="examples/boy-and-dog.jpg" width="82%" height="50%"> |<img src="examples/plot2.png"> | dog, horse, cat            |
-|<img src="examples/rolls-royce.jpg" width="75%" height="50%"> |<img src="examples/plot3.png"> | automobile, truck, airplane|
-|<img src="examples/ship.jpg" width="75%" height="50%">        |<img src="examples/plot4.png"> | ship, airplane, truck      |
+| Image                                       | Probabilities                 | Top results                |
+|---------------------------------------------|-------------------------------|----------------------------|
+|<img src="examples/blue-winged-warbler.jpg"> |<img src="examples/plot1.png"> | bird, deer, frog           |
+|<img src="examples/boy-and-dog.jpg">         |<img src="examples/plot2.png"> | dog, horse, cat            |
+|<img src="examples/rolls-royce.jpg">         |<img src="examples/plot3.png"> | automobile, truck, airplane|
+|<img src="examples/ship.jpg">                |<img src="examples/plot4.png"> | ship, airplane, truck      |
 
