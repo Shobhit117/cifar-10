@@ -14,8 +14,8 @@ The script `recognize.py` can be used to recognize images of any shape using the
 
 | Image                                                        | Probabilities                                          | Top results                |
 |--------------------------------------------------------------|--------------------------------------------------------|----------------------------|
-|<img src="examples/blue-winged-warbler.jpg">                  |<img src="examples/plot1.png" width="75%" height="50%"> | bird, deer, frog           |
-|<img src="examples/boy-and-dog.jpg" width="75%" height="50%"> |<img src="examples/plot2.png" width="75%" height="50%"> | dog, horse, cat            |
-|<img src="examples/rolls-royce.jpg" width="75%" height="50%"> |<img src="examples/plot3.png" width="75%" height="50%"> | automobile, truck, airplane|
-|<img src="examples/ship.jpg" width="75%" height="50%">        |<img src="examples/plot4.png" width="75%" height="50%"> | ship, airplane, truck      |
+|<img src="examples/blue-winged-warbler.jpg">                  |<img src="examples/plot1.png" width="85%" height="50%"> | bird, deer, frog           |
+|<img src="examples/boy-and-dog.jpg" width="75%" height="50%"> |<img src="examples/plot2.png" width="85%" height="50%"> | dog, horse, cat            |
+|<img src="examples/rolls-royce.jpg" width="75%" height="50%"> |<img src="examples/plot3.png" width="85%" height="50%"> | automobile, truck, airplane|
+|<img src="examples/ship.jpg" width="75%" height="50%">        |<img src="examples/plot4.png" width="85%" height="50%"> | ship, airplane, truck      |
 
